@@ -8,3 +8,26 @@ header .container{
     justify-content: space-between;
     align-items: center;
 }
+header .cart-count-header {
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff398f;
+    border-radius: 50%;
+    position: absolute;
+    top: 24px;
+    right: 69px;
+    transition: transform 0.3s;
+}
+
+header .cart-count-header.bounce {
+    transform: scale(1.2);
+}
+
+
+header .right-section {
+    position: relative;
+}
